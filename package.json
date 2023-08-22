@@ -6,6 +6,6 @@
     "test": "jest --coverage"
   },
   "jest": {
-   "coverageDirectory": "./coverage/lcov.info",
-}
+   "coverageDirectory": "./coverage/lcov.info"
+  }
 }
