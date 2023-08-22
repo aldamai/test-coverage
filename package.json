@@ -3,8 +3,9 @@
     "jest": "^29.6.3"
   },
   "scripts":{
-    "test": "jest"
-  },"jest": {
+    "test": "jest --coverage"
+  },
+  "jest": {
    "coverageDirectory": "./coverage/lcov.info",
 }
 }
