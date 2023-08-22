@@ -4,8 +4,5 @@
   },
   "scripts":{
     "test": "jest --coverage"
-  },
-  "jest": {
-   "coverageDirectory": "./coverage/lcov.info"
   }
 }
