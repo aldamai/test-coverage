@@ -19,7 +19,7 @@ jobs:
       - name: Run tests
         run: npm test
       - name: Run tests
-        run: ls
+        run: ls -a
       - name: Test Report coverage
         uses: romeovs/lcov-reporter-action@v0.3.1
         with:
