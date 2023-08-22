@@ -18,6 +18,8 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
+      - name: Run tests
+        run: ls
       - name: Test Report coverage
         uses: romeovs/lcov-reporter-action@v0.3.1
         with:
