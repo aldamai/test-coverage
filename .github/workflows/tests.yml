@@ -12,14 +12,16 @@ jobs:
       - name: Set up node
         uses: actions/setup-node@master
         with:
-          node-version: 14.x
+          node-version: 16.x
           registry-url: https://npm.pkg.github.com
       - name: Install node packages
         run: npm install
       - name: Run tests
         run: npm test
+      - name: Run tests
+        run: ls
       - name: Test Report coverage
-        uses: romeovs/lcov-reporter-action@v0.3.1
+        uses: romeovs/lcov-reporter-action@v0.2.11
         with:
           github-token: ${{ github.token }}
           lcov-file: ./coverage/lcov.info
