@@ -19,9 +19,9 @@ jobs:
       - name: Run tests
         run: npm test
       - name: Run tests
-        run: ls ./coverage/lcov.info
+        run: ls
       - name: Test Report coverage
         uses: romeovs/lcov-reporter-action@v0.2.11
         with:
           github-token: ${{ github.token }}
-          lcov-file: ./coverage/lcov.info/lcov.info
+          lcov-file: ./coverage/lcov.info
