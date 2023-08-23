@@ -25,4 +25,3 @@ jobs:
         with:
           github-token: ${{ github.token }}
           lcov-file: ./coverage/lcov.info/lcov.info
-          filter-changed-files: true
