@@ -21,7 +21,7 @@ jobs:
       - name: Run tests
         run: ls -a
       - name: Test Report coverage
-        uses: romeovs/lcov-reporter-action@v0.3.1
+        uses: romeovs/lcov-reporter-action@v0.2.11
         with:
           github-token: ${{ github.token }}
           lcov-file: coverage/lcov.info
