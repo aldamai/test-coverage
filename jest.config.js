@@ -1,3 +1,3 @@
 module.exports = {
-    coverageDirectory: '<rootDir>/.coverage/lcov.info',
+    coverageDirectory: '<rootDir>/coverage/lcov.info',
 };
